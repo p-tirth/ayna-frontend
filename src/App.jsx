@@ -1,10 +1,10 @@
 // App.js
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Login from './Login';
-import Signup from './Signup';
-import ChatPage from './chatpage';
-import ProtectedRoute from './ProtectedRoute';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
+import ChatPage from './pages/ChatPage';
+import ProtectedRoute from '../components/ProtectedRoute';
 
 function App() {
   return (
