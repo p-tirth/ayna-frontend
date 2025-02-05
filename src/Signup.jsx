@@ -12,7 +12,7 @@ const Signup = () => {
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:1337/api/auth/local/register", {
+      const response = await fetch("https://colorful-hero-2489a10854.strapiapp.com/api/auth/local/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, email, password }),
