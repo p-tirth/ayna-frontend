@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Login from './Login';
 import Signup from './Signup';
-import ChatPage from './ChatPage';
+import ChatPage from './chatpage';
 import ProtectedRoute from './ProtectedRoute';
 
 function App() {
